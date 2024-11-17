@@ -2,64 +2,64 @@
 
 Project Structure (https://app.eraser.io/workspace/7e6QfFkOIq0LNlKPslS0?origin=share)
 
-E-commerce/
-├── ecommerce-admin/            <-- Backend for admin panel
-│   ├── config/
-│   │   ├── constants.js
-│   │   ├── db.js
-│   │   └── dotenv.js
-│   ├── controllers/
-│   │   ├── authController.js
-│   │   ├── productController.js
-│   │   └── ...
-│   ├── middleware/
-│   │   └── authMiddleware.js
-│   ├── models/
-│   │   ├── User.js
-│   │   ├── Product.js
-│   │   └── ...
-│   ├── routes/
-│   │   ├── auth.js
-│   │   ├── product.js
-│   │   └── ...
-│   ├── server.js
-│   ├── package.json
-│   └── ...
-├── admin-frontend/             <-- Frontend for admin panel (React)
-│   ├── public/
-│   ├── src/
-│   │   ├── components/
-│   │   ├── pages/
-│   │   ├── services/           <-- API call helpers
-│   │   ├── App.js
-│   │   └── ...
-│   ├── package.json
-│   └── ...
-├── ecommerce-backend/          <-- Backend for main e-commerce site
-│   ├── config/
-│   │   ├── constants.js
-│   │   ├── db.js
-│   │   └── dotenv.js
-│   ├── controllers/
-│   │   ├── productController.js
-│   │   ├── orderController.js
-│   │   └── ...
-│   ├── routes/
-│   │   ├── product.js
-│   │   ├── order.js
-│   │   └── ...
-│   ├── server.js
-│   ├── package.json
-│   └── ...
-├── ecommerce-frontend/         <-- Frontend for main e-commerce site (Angular)
-│   ├── src/
-│   │   ├── app/
-│   │   │   ├── components/
-│   │   │   ├── pages/
-│   │   │   └── services/       <-- API call helpers
-│   │   └── ...
-│   ├── angular.json
-│   ├── package.json
-│   └── ...
-├── README.md                   <-- Documentation
-└── .gitignore
+E-commerce/<br>
+├── ecommerce-admin/            <-- Backend for admin panel<br>
+│   ├── config/<br>
+│   │   ├── constants.js<br>
+│   │   ├── db.js<br>
+│   │   └── dotenv.js<br>
+│   ├── controllers/<br>
+│   │   ├── authController.js<br>
+│   │   ├── productController.js<br>
+│   │   └── ...<br>
+│   ├── middleware/<br>
+│   │   └── authMiddleware.js<br>
+│   ├── models/<br>
+│   │   ├── User.js<br>
+│   │   ├── Product.js<br>
+│   │   └── ...<br>
+│   ├── routes/<br>
+│   │   ├── auth.js<br>
+│   │   ├── product.js<br>
+│   │   └── ...<br>
+│   ├── server.js<br>
+│   ├── package.json<br>
+│   └── ...<br>
+├── admin-frontend/             <-- Frontend for admin panel (React)<br>
+│   ├── public/<br>
+│   ├── src/<br>
+│   │   ├── components/<br>
+│   │   ├── pages/<br>
+│   │   ├── services/           <-- API call helpers<br>
+│   │   ├── App.js<br>
+│   │   └── ...<br>
+│   ├── package.json<br>
+│   └── ...<br>
+├── ecommerce-backend/          <-- Backend for main e-commerce site<br>
+│   ├── config/<br>
+│   │   ├── constants.js<br>
+│   │   ├── db.js<br>
+│   │   └── dotenv.js<br>
+│   ├── controllers/<br>
+│   │   ├── productController.js<br>
+│   │   ├── orderController.js<br>
+│   │   └── ...<br>
+│   ├── routes/<br>
+│   │   ├── product.js<br>
+│   │   ├── order.js<br>
+│   │   └── ...<br>
+│   ├── server.js<br>
+│   ├── package.json<br>
+│   └── ...<br>
+├── ecommerce-frontend/         <-- Frontend for main e-commerce site (Angular)<br>
+│   ├── src/<br>
+│   │   ├── app/<br>
+│   │   │   ├── components/<br>
+│   │   │   ├── pages/<br>
+│   │   │   └── services/       <-- API call helpers<br>
+│   │   └── ...<br>
+│   ├── angular.json<br>
+│   ├── package.json<br>
+│   └── ...<br>
+├── README.md                   <-- Documentation<br>
+└── .gitignore<br>

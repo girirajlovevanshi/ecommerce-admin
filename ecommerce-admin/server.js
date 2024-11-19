@@ -2,6 +2,10 @@
 import dotenv from 'dotenv';
 import express from 'express';
 import connectDB from './config/db.js'
+
+import subcategoryRoutes from './routes/subcategory.js';
+
+
 dotenv.config({path:'./config/.env'})
 
 // DB connection
@@ -16,6 +20,9 @@ app.use(express.json());
 app.get("/", (req,res)=>{
     res.send('Admin panal is running');
 });
+
+
+app.use('/api/subcategories', subcategoryRoutes); 
 
 //start server
 const PORT = process.env.PORT;
